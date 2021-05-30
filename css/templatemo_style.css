@@ -349,8 +349,7 @@ h6 {
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 51px;
+  line-height: 102px;
   display: block;
 }
 #templatemo_logo h1 a {
@@ -796,6 +795,9 @@ ul.social li a {
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
 @media (max-width: 1199px){
+	#templatemo_logo h1 {
+		font-size: 24px;
+	 }
 	.product-item .item-thumb .overlay .overlay-inner a.view-detail {
 		position: relative;
 		margin-top: -20%;
