@@ -408,6 +408,7 @@ h6 {
 
 .bx-wrapper img {
   opacity: 0.8;
+  width: 100%;
   filter: alpha(opacity=80);
 }
 
@@ -443,7 +444,7 @@ h6 {
 }
 
 #bx-pager a {
-  margin: 20px 10px 0 20px;
+  margin: 20px 10px 0 0px;
   padding: 0 0 40px 0;
   display: inline-block;
   opacity: 0.4;
@@ -516,6 +517,10 @@ h6 {
 	 width: 33%;
  } */
 
+ .rows{
+
+	width: 100%;
+ }
 .service-item {
 	margin-left: auto;
 	margin-right: auto;
@@ -771,8 +776,13 @@ ul.social li a {
 /*------------------------------------------------------
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
+@media (max-width: 1199px){
+	.bx-thumbnail-wrapper {
+		display: none;
+	 }
+}
 @media (max-width: 991px) {
-  .main-menu, .bx-thumbnail-wrapper {
+  .main-menu, {
     display: none;
   }
 
