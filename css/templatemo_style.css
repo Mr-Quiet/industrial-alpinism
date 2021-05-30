@@ -782,7 +782,7 @@ ul.social li a {
 	 }
 }
 @media (max-width: 991px) {
-  .main-menu, {
+  .main-menu{
     display: none;
   }
 
