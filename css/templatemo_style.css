@@ -498,12 +498,12 @@ h6 {
 }
 
 
-.service-items {
+/* .service-items {
 	padding-bottom: 40px;
 	width: 33%;
 	text-align: center;
 	-webkit-backface-visibility: hidden;
-	/* Chrome, Safari, Opera */
+	/* Chrome, Safari, Opera 
 	backface-visibility: hidden;
  }
  .service-items p {
@@ -515,11 +515,13 @@ h6 {
 	display: flex;
 	justify-content: space-between;
  }
- /* .rows33{
+ .rows33{
 	 width: 33%;
  } */
 
 .service-item {
+	margin-left: auto;
+	margin-right: auto;
   padding-bottom: 40px;
   text-align: center;
   -webkit-backface-visibility: hidden;
