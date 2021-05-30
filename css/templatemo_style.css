@@ -565,6 +565,25 @@ h6 {
   background-image: url(../images/service-fourth.png);
 }
 
+.service-item .service-icon.first1 {
+	background-image: url(../images/promotion/1.png);
+ }
+ .service-item .service-icon.second2 {
+	background-image: url(../images/promotion/2.png);
+ }
+ .service-item .service-icon.third3 {
+	background-image: url(../images/promotion/3.png);
+ }
+ .service-item .service-icon.fourth4 {
+	background-image: url(../images/promotion/4.png);
+ }
+ .service-item .service-icon.five5 {
+	background-image: url(../images/promotion/5.png);
+ }
+ .service-item .service-icon.six6 {
+	background-image: url(../images/promotion/6.png);
+ }
+
 /* ==========================================================================
     Promotion Styling
    ========================================================================== */
