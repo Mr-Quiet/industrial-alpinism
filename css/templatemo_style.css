@@ -728,7 +728,7 @@ h6 {
    ========================================================================== */
 #map {
   width: 100%;
-  height: 380px;
+  height: 370px;
   outline: 0;
   border: 0;
 }
@@ -795,6 +795,9 @@ ul.social li a {
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
 @media (max-width: 1199px){
+	.row-copy{
+		margin-left:-15px;margin-right:-15px;
+	}
 	#templatemo_logo h1 {
 		font-size: 24px;
 	 }
@@ -816,6 +819,7 @@ ul.social li a {
 	 }
 }
 @media (max-width: 991px) {
+
 	.product-item .item-thumb .overlay .overlay-inner a.view-detail {
 		position: relative;
 		margin-top: 10%;
@@ -883,6 +887,7 @@ ul.social li a {
   }
 }
 @media (max-width: 767px) {
+	
 	.product-item .item-thumb .overlay .overlay-inner a.view-detail {
 		position: relative;
 		display: block;
