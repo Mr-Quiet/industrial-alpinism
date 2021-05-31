@@ -49,20 +49,19 @@
 
 })(window, jQuery);
 
-var map = '';
+// var map = '';
 
-function initialize() {
-    var mapOptions = {
-      zoom: 14,
-      center: new google.maps.LatLng(47.960939, 33.435439)
-    };
-    map = new google.maps.Map(document.getElementById('map'),  mapOptions);
-}
+// function initialize() {
+//     var mapOptions = {
+//       zoom: 14,
+//       center: new google.maps.LatLng(47.960939, 33.435439)
+//     };
+//     map = new google.maps.Map(document.getElementById('map'),  mapOptions);
+// }
 
-// load google map
-var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
-        'callback=initialize';
-    document.body.appendChild(script);
-	 
+// // load google map
+// var script = document.createElement('script');
+//     script.type = 'text/javascript';
+//     script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+//         'callback=initialize';
+//     document.body.appendChild(script);
