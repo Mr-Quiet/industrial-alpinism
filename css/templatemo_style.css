@@ -812,6 +812,10 @@ ul.social li a {
 		font-size: 14px;
 		/* text-transform: uppercase; */
 	 }
+	 .slider-caption h2 {
+		line-height: 12px;
+		font-size: 23px;
+	 }
 	.bx-thumbnail-wrapper {
 		display: none;
 	 }
@@ -846,6 +850,12 @@ ul.social li a {
   .slider-caption {
     bottom: 80px;
   }
+  .slider-caption h2{
+	/* display: none; */
+	/* margin: 14px; */
+	line-height: 10px;
+	font-size: 20px;
+ }
 
   .bx-controls-direction {
     bottom: 30px;
